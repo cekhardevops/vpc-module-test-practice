@@ -20,3 +20,6 @@ variable "private_cidr_blocks" {
 variable "database_cidr_blocks" {
   default = ["10.0.21.0/24","10.0.22.0/24"]
 }
+variable "is_peering_required" {
+  default = true
+}
